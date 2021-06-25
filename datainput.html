@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="./answer.php" method="post">
+        <fieldset>
+            <legend>Personalia</legend><br>
+            <label for="name" id="name">姓名:</label><br>
+            <input type="text" name="name" id="name"><br>
+            
+            <label for="age" id="age">年齡:</label><br>
+            <input type="text" name="age" id="age"><br>
+            
+            <label for="email" id="email">E mail:</label><br>
+            <input type="email" name="email" id="email"><br>
+            
+            <label for="tel" id="tel">Tel:</label><br>
+            <input type="text" name="tel" id="tel"><br><br>
+
+            <label for="width" >身高<sub>(cm)</sub></label><br>
+            <input type="text" name="width" id="width"><br>
+
+            <label for="height">體重<sub>(kg)</sub></label><br>
+            <input type="text" name="height" id="height"><br><br><br>
+
+            <label for="cars">車輛品牌</label>
+            <select name="cars" id="cars"><br>
+                <option value="BMW">BMW</option>
+                <option value="Benz">Benz</option>
+                <option value="VW">VW
+                <option value="Proton">Proton</option>
+                <option value="Toyota">Toyota</option>
+                <option value="Honda">Honda</option>
+             </select>
+            <br>
+            <br>
+             <label for="color">車輛顔色</label>
+             <select name="color" id="color"><br>
+                <option value="Red">Red</option>
+                <option value="Blue">Blue</option>
+                <option value="Green">Green</option>
+                <option value="Black">Black</option>
+                <option value="White">White</option>
+                <option value="Sliver">Sliver</option>
+                <option value="Purple">Purple</option>
+            </select>
+             <br>
+             <br>  
+             <label for="comment" id="comment">寫下你的感想</label><br>
+             <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+        
+        </fieldset>
+        <input type="checkbox" name="private" id="private">我同意...網站存儲我的個人資料<br><br><br>
+        <input type="Submit" value="Submit" style="width: 85px; height: 50px;">
+    </form>
+</body>
+</html>

@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: powderblue;
+}
+.header{
+    text-align: center;
+    padding: 300px;
+    background-image: url(./pexels-jae-park-3802510.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0px 0px;
+}
+.Sign-Up{
+    width: 250px;
+    height: 180px;
+    border-radius: 8px;
+    
+}
+.navbar{
+    background-color: darkturquoise;
+    text-align: center;
+}
+.navbar ul{
+    display: inline-flex;
+    list-style: none;
+    color: gainsboro;
+}
+.navbar ul li{
+    width: 80px;
+    padding: 10px;
+    margin: 10px 60px ;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color:white;
+}
+.navbar ul li:hover {
+    border-radius: 20px;
+    background-color: slategrey;
+}
+.content-1{
+    display: none;
+    
+}
+.navbar ul li:hover .content-1{
+    display: block;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -15px;
+    background-color: darkturquoise;
+}
+.navbar ul li:hover .content-1 ul{
+    display: block;
+    margin: 10px;
+}
+.navbar ul li:hover .content-1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+    margin: 10px;
+}
+.navbar ul li:hover .content-1 ul li:last-child{
+    border-bottom: 0px;
+}
+.navbar ul li:hover .content-1 ul li a:hover{
+    color: rgb(0, 100, 116);
+}
+
+
+
+
+.leftcolumn{
+    margin: 10px;
+    float: left;
+    width: 70%;
+    
+}
+
+.rightcolumn{
+    margin: 10px;
+    width: 25%;
+    float: left;
+    padding-left: 20px;
+    background-color: aliceblue;
+}
+
+.area_c{
+    background-color: white;
+    padding: 100px;
+    margin-top: 20px;
+}
+.area_c h2{
+    font-size: 35px;
+    padding: 0px;
+}
+.area_c h5{
+    font-size: 12px;
+}
+.area_c p{
+    font-size: 25px;
+}
+
+.area-right{
+    padding:50px ;
+    margin : 20px;
+}
+.area-right h3,.area-right h2{
+    
+}
+.content:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer {
+    background-color: aliceblue;
+    text-align: center;
+}
+
+.area_c a{
+    font-style: italic;
+}
+
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+  
+@media screen and (max-width: 400px) {
+    .navbar a {
+      float: none;
+      width: 100%;
+    }
+}
+
+  

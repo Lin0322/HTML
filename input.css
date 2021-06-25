@@ -1,0 +1,27 @@
+/*div.center{
+    margin:auto ;
+    
+}*/
+
+
+#input table { 
+    border: 1px solid rgb(190, 190, 190);
+    margin: auto;
+    padding: 0px;
+    border-radius: 10px;
+}
+
+#input table tr td{
+    padding-left: 5px ;
+}
+#input table tr th{
+    margin: 0px;
+    padding: 0px;
+    background-color: gray;
+}
+
+div.center#button{
+    width: 35%;
+    margin: auto;
+
+}

@@ -1,0 +1,29 @@
+table , th , td{
+    border :1px solid black;
+    border-collapse: collapse; 
+    /*如果表格上有 collapsed borders, border-spacing 將不會執行 （If the table has collapsed borders, border-spacing has no effect.）*/
+}
+
+/*table{
+    border-spacing: 5px ;   
+}*/
+
+th{
+    text-align: center;
+    background-color: darkseagreen;
+    color: honeydew;
+
+}
+
+th, td{
+    padding: 10px;
+}
+tr td{
+    text-align: center;
+}
+#table02 th{
+    background-color: rgb(220, 155, 201);
+}
+#table02 tr:nth-child(even){
+    color: rgb(115, 205, 119);
+}
